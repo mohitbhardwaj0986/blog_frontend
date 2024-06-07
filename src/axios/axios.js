@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const instance = axios.create({
-    baseURL: "https://render.com/docs/web-services#port-binding/api/v1",
+    baseURL: "https://blog-backend-bzm8.onrender.com/api/v1",
     withCredentials:true,
 })
 
