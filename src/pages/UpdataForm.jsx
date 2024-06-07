@@ -101,7 +101,7 @@ function UpdataForm() {
           placeholder="Description"
           {...register("descriptionTwo")}
         />
-
+        <h1 className="text-xl">Do you wnat show in public</h1>
         <Select
           className="mb-5"
           label="Public or Private"
