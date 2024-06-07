@@ -40,17 +40,21 @@ function Nav() {
 
   return (
     <>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center w-screen fixed sm:static z-10">
         <div>
           <img src={logo} alt="logo" className="w-[20vw]" />
         </div>
         <button
           onClick={() => setHamburger(!hamburger)}
-          className="lg:hidden mr-6 text-xl"
+          className="lg:hidden mr-6 text-3xl"
         >
           <RxHamburgerMenu />
         </button>
-        <div className={`fixed top-0 ${hamburger ? "left-0" : "-left-full"} w-64 bg-white h-full lg:static lg:flex lg:w-auto lg:h-auto lg:bg-transparent lg:p-0 duration-300`}>
+        <div
+          className={`fixed top-0 ${
+            hamburger ? "left-0" : "-left-full"
+          } w-64 bg-white h-full lg:static lg:flex lg:w-auto lg:h-auto lg:bg-transparent lg:p-0 duration-300`}
+        >
           <ul className="flex flex-col lg:flex-row gap-10 justify-center items-center p-5 lg:p-0">
             {navData.map((item, index) => (
               <li key={index}>
@@ -70,8 +74,8 @@ function Nav() {
                 Login
               </button>
             )}
-            {isAuthorized && (
-              loading ? (
+            {isAuthorized &&
+              (loading ? (
                 <img className="w-12" src={laodinGif} alt="loading" />
               ) : (
                 <button
@@ -80,8 +84,7 @@ function Nav() {
                 >
                   Logout
                 </button>
-              )
-            )}
+              ))}
           </ul>
           <div className="lg:hidden">
             {user && user.user.role === "author" && (
