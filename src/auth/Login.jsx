@@ -104,6 +104,7 @@ if (isAuthorized) {
           <p className="text-red-500">{errors.password.message}</p>
         )}
         <Select
+        className="mt-3"
           label="role"
           {...register("role", {
             required: "Role is required",

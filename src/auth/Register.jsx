@@ -157,6 +157,7 @@ function Register() {
               <p className="text-red-500">{errors.avatar.message}</p>
             )}
             <Select
+            className="mt-3"
               label="Role"
               {...register("role", {
                 required: "Role is required",

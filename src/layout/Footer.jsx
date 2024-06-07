@@ -5,17 +5,17 @@ function Footer() {
     <div>
     <div className='p-5 flex flex-wrap gap-5 md:flex md:justify-center md:mt-10'>
       <div className='w-64 '>
-        <h1 className='text-2xl font-medium '>Job Search</h1>
+        <h1 className='text-2xl font-medium '>write blog</h1>
         <p className='text-gray-500'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, necessitatibus.
         </p>
       </div>
       <div className='w-44 '>
         <h1 className='text-2xl font-medium '>Plateform</h1>
         <p className='text-gray-500'>How its Work</p>
-        <p className='text-gray-500'>All Jobs</p>
+        <p className='text-gray-500'>Interested blog</p>
         <p className='text-gray-500'>Fraud</p>
         <p className='text-gray-500'>Protection</p>
-        <p className='text-gray-500'>Apply</p>
+        <p className='text-gray-500'>Post</p>
         <p className='text-gray-500'>Account</p>
       </div>
       <div className='w-44 '>

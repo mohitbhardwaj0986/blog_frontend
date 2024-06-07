@@ -93,7 +93,7 @@ function Nav() {
                   setHamburger(false);
                   navigate("/dashboard");
                 }}
-                className="bg-green-600 hover:bg-green-500 px-2 py-1 text-white font-semibold rounded-md mt-3"
+                className="bg-green-600 hover:bg-green-500 px-2 py-1 text-white font-semibold rounded-md mt-3 ml-10"
               >
                 Dashboard
               </button>
