@@ -6,7 +6,7 @@ import home3 from "../assets/home3.jpg";
 function HomePageSection1() {
   return (
     <>
-      (
+      
       <div className="w-full">
         <div className="w-full h-full flex flex-col lg:flex-row items-center mb-10">
           <div className="w-full lg:w-1/2">
